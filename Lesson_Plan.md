@@ -11,7 +11,6 @@ Audience: Senior undergraduates, graduate students, lab assistants, staff, and f
 
 ## Getting Started
 How to install OpenRefine: https://github.com/OpenRefine/OpenRefine/wiki/Installation-Instructions
-How to prepare your computer to use RDF reconciliations: http://refine.deri.ie/installationDocs
 
 ## Beginning a Project
 ### To create a project 
@@ -38,7 +37,7 @@ For another option, see import project below.
 
 ### Edit cells
 * Sometimes you will want to edit the contents of a field based on what you see in the facet
-* Try edit cells > split multi-value cells > by separator (;)
+* On the subject columns, try edit cells > split multi-value cells > by separator (;)
 * Refresh the faceting and review the changes
 
 ### Edit column
