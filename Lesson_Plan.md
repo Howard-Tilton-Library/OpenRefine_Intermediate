@@ -19,9 +19,9 @@ How to install OpenRefine: https://github.com/OpenRefine/OpenRefine/wiki/Install
 * Select "Create Project" on the left and the location of a project 
   * Select the appropriate type of file to parse data as (tab-delimited text)
   * Experiment with options within that type (character encoding, rows to discard or store)
-  * review the preview to make sure your data is being parsed correctly
-  * select "Create Project>>>" at the top and wait
-  * when the project opens, scroll through some of the rows/pages and double check your parsing settings worked
+  * Review the preview to make sure your data is being parsed correctly
+  * Select "Create Project>>>" at the top and wait
+  * When the project opens, scroll through some of the rows/pages and double check your parsing settings worked
 ### To exit the program
 * CTRL + C will close the command line and stop the program (even if it's still open in your browser)
 ### To open a project
