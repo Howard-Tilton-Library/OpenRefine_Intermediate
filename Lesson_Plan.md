@@ -28,16 +28,14 @@ How to install OpenRefine: https://github.com/OpenRefine/OpenRefine/wiki/Install
 * Start OpenRefine up again
 * Now select "Open Project" to work on the project you've previously created
 
-For another option, see import project below.
-
 ## Review your Data
 ### Faceting
-* Use the dropdown menu on a field (like Subject) to "Facet>Text facet"
+* Use the dropdown menu on a field (like Genre) to "Facet>Text facet"
 * On the left you can now see the contents of the field, how often those contents repeat, and you can sort
 
 ### Edit cells
 * Sometimes you will want to edit the contents of a field based on what you see in the facet
-* On the subject columns, try edit cells > split multi-value cells > by separator (;)
+* On the genre column, try edit cells > split multi-value cells > by separator (;)
 * Refresh the faceting and review the changes
 
 ### Edit column
@@ -50,7 +48,7 @@ For another option, see import project below.
 then return to "Facet/Filter" and try again
 
 ### Clustering
-* Facet the new final Physical description column which should include size information.
+* Facet one of the new final Physical description columns.
 * Select "Cluster" in the box or on that column select "Edit cells>Cluster and edit..."
 * Experiment with your options until you have joined all of the appropriate values
 * How have the results in the facet box changed?
@@ -63,7 +61,7 @@ then return to "Facet/Filter" and try again
 * [Library Carpenty OpenRefine](https://data-lessons.github.io/library-openrefine/07-using-transformations/)
 
 ### Jython Scripting
-* 
+* [Jython](https://www.jython.org/) is an open source implementation of the Python programming language, integrated with the Java platform. Jython itself is written in Java and supplemented by the dynamic object-oriented programming features of Python; it allows Python to run on any Java platform.
 
 ## Ending a project
 ### To export a project
