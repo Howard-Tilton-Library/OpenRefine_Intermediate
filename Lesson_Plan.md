@@ -55,10 +55,7 @@ then return to "Facet/Filter" and try again
 
 ### Using GREL (Google Refine Expression Langauge)
 * [GREL](https://github.com/OpenRefine/OpenRefine/wiki/Understanding-Expressions) allows you to use regular expressions to edit in OpenRefine 
-* create and test your regex in [regular expressions 101](https://regex101.com/)
-* test them on 10 of your rows...second row shows value after running
-* [Google Refine Cheat Sheets](http://arcadiafalcone.net/GoogleRefineCheatSheets.pdf)
-* [Library Carpenty OpenRefine](https://data-lessons.github.io/library-openrefine/07-using-transformations/)
+* Preview shows results on 10 of your rows...second row shows value after running
 
 ### Jython Scripting
 * [Jython](https://www.jython.org/) is an open source implementation of the Python programming language, integrated with the Java platform. Jython itself is written in Java and supplemented by the dynamic object-oriented programming features of Python; it allows Python to run on any Java platform.
@@ -76,6 +73,15 @@ then return to "Facet/Filter" and try again
 * Select Import Project in the left side of the screen
 * Browse and select the file you saved in the last step
 * Rename if necessary, and select "Import Project"
+### To reuse project operations
+#### To export project operations
+* Select Undo/Redo
+* Select Extract...
+* Select the desired operations and copy the resulting JSON
+#### To apply project operations
+* Select Undo/Redo
+* Select Apply...
+* Paste the code from the step above into the box and click "Perform Operations."
 
 ## Advanced Options
 ### Reconciliation
@@ -83,11 +89,16 @@ General information about Reconciliation Services in OpenRefine: https://github.
 LCNAF and LCSH reconciliation: https://github.com/cmh2166/lc-reconcile
 VIAF reconciliation: http://refine.codefork.com/
 
-* if there is time, help download and run VIAF reconciliation
-* if not, just demo on the 100 field
+* Demo a reconciliation against Wikidata
+* Additional reconciliation options exist, and if you've got sufficient programming skills, you can build your own!
 
-### Normalization of dates
-* http://archival-integration.blogspot.com/2015/06/normalizing-dates-with-openrefine.html?m=1
-
-### Alternative Option for Linked Data in Open Refine
+## Additional Resources for learning OpenRefine, Regex, Jython and more
+1. Guides or Lessons on OpenRefine
 * Bolam, Mike. "Cleaning and Linking Data with OpenRefine" (https://mbolam.github.io/DigMitCS_openrefine/) (accessed 7/9/2018)
+* Michael, Brinna. "OpenRefine" University of Illinois at Urbana-Champaign Library Libguide (http://guides.library.illinois.edu/openrefine/home) (accessed 4/22/2019)
+2. Tools
+* [regular expressions 101](https://regex101.com/) (tool for creating and testing regex)
+* [Google Refine Cheat Sheets](http://arcadiafalcone.net/GoogleRefineCheatSheets.pdf)
+* [Library Carpenty OpenRefine](https://data-lessons.github.io/library-openrefine/07-using-transformations/)
+* [OpenRefine GREL recipes](https://github.com/OpenRefine/OpenRefine/wiki/Recipes)
+
